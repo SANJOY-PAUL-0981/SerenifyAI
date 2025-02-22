@@ -6,7 +6,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Constants
 const RATE_LIMIT_DELAY = 5000;
-const API_KEY = "AIzaSyCxlxamG96sCXL-HJvHypew8rJp3qUaSYg";
+const API_KEY = "AIzaSyBjZJUpvBIVe15WR60tSq_smGm6QW2VZGg";
 const MODEL_NAME = "gemini-2.0-flash";
 const INITIAL_MESSAGE = "👋 Hello! I'm here to listen and support you. How are you feeling today?";
 
@@ -56,8 +56,7 @@ function ChatPage() {
             - Avoid making assumptions
             - Encourage professional help when appropriate
             - Focus on active listening
-            - Maintain boundaries and confidentiality
-            - Try to make your msg little small`;
+            - Maintain boundaries and confidentiality`;
 
             const result = await model.current.generateContent(prompt);
             return result.response.text();
