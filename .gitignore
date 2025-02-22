@@ -1,0 +1,40 @@
+# General
+.DS_Store
+node_modules/
+venv/
+__pycache__/
+.env
+*.pyc
+
+# React
+/build/
+/.eslintcache
+/.parcel-cache/
+*.log
+
+# FastAPI
+*.db
+*.sqlite3
+instance/
+*.log
+venv/
+.env
+__pycache__/
+*.pyc
+
+# LLM Fine-tuning
+/models/
+/checkpoints/
+/datasets/
+/output/
+*.ckpt
+*.h5
+*.pth
+
+# VSCode and IDE specific
+.vscode/
+.idea/
+*.iml
+
+# OS-specific
+Thumbs.db
