@@ -110,7 +110,7 @@ function ChatPage() {
     }, [handleSendMessage]);
 
     return (
-        <div className="bg-[#e9fffe] min-h-screen">
+        <div className="min-h-screen">
             <Navbar />
             <div className="h-[89vh] flex justify-center items-center">
                 <div className="border border-[#A9B5DF] w-[55vw] rounded-xl bg-white shadow-lg">
